@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ch1"
+version = "0.1.0"
+description = ""
+authors = ["Ian Chen <ianchen0524@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ollama = "^0.4.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

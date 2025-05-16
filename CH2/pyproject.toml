@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ch2"
+version = "0.1.0"
+description = ""
+authors = ["Ian Chen <ianchen0524@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ollama = "^0.4.7"
+requests = "^2.32.3"
+unstructured = "^0.17.2"
+langchain-text-splitters = "^0.3.7"
+chromadb = "^0.6.3"
+pypdf2 = "^3.0.1"
+pdfplumber = "^0.11.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

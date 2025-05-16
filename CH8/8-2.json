@@ -1,0 +1,47 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "針對這道美食，我想說的是…",
+        "size": "xl",
+        "align": "center",
+        "weight": "bold"
+      },
+      {
+        "type": "separator",
+        "color": "#000000",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://chibu.app/reviewer.jpg",
+            "size": "full",
+            "aspectRatio": "1:1",
+            "flex": 1
+          },
+          {
+            "type": "text",
+            "text": "comment",
+            "gravity": "center",
+            "align": "center",
+            "adjustMode": "shrink-to-fit",
+            "flex": 2,
+            "size": "lg",
+            "wrap": true,
+            "margin": "md"
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  }
+}
