@@ -1,0 +1,15 @@
+$schema: "https://raw.githubusercontent.com/lastmile-ai/mcp-agent/main/schema/mcp-agent.config.schema.json"
+
+mcp:
+  servers:
+    "InventoryAI": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "<你的path>/server.py",
+        "run",
+        "server.py"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
